@@ -12,7 +12,10 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 25px;}
+    padding: 15px 25px;
+}
+   
+    
     /* nav related styles */
 nav {
     display: flex;
@@ -45,6 +48,7 @@ nav > ul > li{
 nav li > a{
     text-decoration: none;
 }
+
 .E-Commerce{
     padding: 30px;
     margin: 40px;
