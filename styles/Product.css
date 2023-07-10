@@ -1,0 +1,66 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;}
+    /* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #000;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+
+nav > ul > li{
+    display: inline;
+    margin-right: 15px;
+}
+nav li > a{
+    text-decoration: none;
+}
+.E-Commerce{
+    padding: 30px;
+    margin: 40px;
+}
+.btn-E-Commerce{
+    border-radius: 5px;
+    background: #245452;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;
+    margin-right: 40px;
+}
+.Real-time {
+    padding: 20px;
+    margin: 60px;
+    background-color: antiquewhite;
+}
